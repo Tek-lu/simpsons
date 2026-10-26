@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Folders to exclude
+/archive/
+/inference_test/
+/test_simpsons/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local environment variables
+.env
+.env.*
+
+# Machine learning checkpoints and large model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
